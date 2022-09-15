@@ -7,7 +7,7 @@ This script contains the code used for the analyses in Beale et al. 2022. Carryi
 
 ###### Equation for bighorn sheep carrying capacity ######
 
-BHS CC = (sum of (F*U*A))*SUF / FR<br/>
+BHS CC = (sum of (F x U x A)) x SUF / FR<br/>
 
 F = forage quality; measured in Mcal<br/>
 U = relative winter selection by BHS; proportion between 0-1<br/>
