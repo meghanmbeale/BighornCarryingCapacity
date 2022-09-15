@@ -20,7 +20,6 @@ FR = forage requirements for average BHS over entire winter; measured in Mcal<br
 
 Note that we cannot provide raw data for BHS winter ranges, as this species is protected in the province of British Columbia (BC) and large-scale (i.e., detailed) range maps are not publicly available. For more information on the distribution of BHS in BC, please visit: https://a100.gov.bc.ca/pub/eswp/esr.do?id=16396.<br/>
 To assist readers with understanding our CC model, we have opted to include the raw data that fed into the CC model without spatial references for winter BHS ranges.<br/>
-Predicted relative selection (U) and predicted forage quality (F) rasters are also available from this GitHub repository.
 ```
 # load raw data
 FUA <- read.csv("BHS_AvailableEnergy_WinterRange.csv") 
