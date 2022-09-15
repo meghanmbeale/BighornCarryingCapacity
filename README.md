@@ -5,26 +5,15 @@ Meghan Beale 13/09/2022
 This script contains the code used for the analyses in Beale et al. 2022. Carrying capacity and cumulative effects management: A case study using bighorn sheep. Conservation Science and Practice.
 
 
-
-## Code associated with Beale et al. (2022) Carrying capacity and cumulative effects management: A case study using bighorn sheep.
-## Conservation Science and Practice
-
-## Meghan Beale, 15 September 2022
-
-#################################################################################################################################
-
-# load libraries
-library(tidyverse)
-
 ###### Equation for bighorn sheep (BHS) carrying capacity (CC) ######
 
 # BHS CC = (sum of (F*U*A))*SUF / FR
 
-# F = forage quality; measured in Mcal
-# U = relative winter selection by BHS; proportion between 0-1
-# A = area; based on winter range; proportion between 0-1
-# SUF = safe use factor; proportion between 0-1
-# FR = forage requirements for average BHS over entire winter; measured in Mcal
+F = forage quality; measured in Mcal
+U = relative winter selection by BHS; proportion between 0-1
+A = area; based on winter range; proportion between 0-1
+SUF = safe use factor; proportion between 0-1
+FR = forage requirements for average BHS over entire winter; measured in Mcal
 
 ###### Read raw data for F, U, and A ######
 
